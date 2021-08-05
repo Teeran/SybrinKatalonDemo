@@ -1,0 +1,31 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+YourLogoTestdata,Chrome 92.0.4515.131,Address ref,,2021-08-05 21:13:46,2021-08-05 21:18:33,4m - 47.658s,FAILED
+,,,,,,,
+Test Cases/ReOrderFromOrderHistory,Chrome 92.0.4515.131,Search an order by Order reference and Reorder,,2021-08-05 21:13:46,2021-08-05 21:16:15,2m - 28.838s,FAILED
+openBrowser(url),Chrome 92.0.4515.131,,,2021-08-05 21:13:47,2021-08-05 21:14:01,14.487s,PASSED
+"setText(findTestObject(""YourLogo/LoginPage/txtUsername""), strUsername)",Chrome 92.0.4515.131,,,2021-08-05 21:14:01,2021-08-05 21:14:03,1.506s,PASSED
+"setText(findTestObject(""YourLogo/LoginPage/txtPasswd""), strPasswrd)",Chrome 92.0.4515.131,,,2021-08-05 21:14:03,2021-08-05 21:14:04,0.891s,PASSED
+"click(findTestObject(""YourLogo/LoginPage/btnSignIn""))",Chrome 92.0.4515.131,,,2021-08-05 21:14:04,2021-08-05 21:14:14,10.283s,PASSED
+"click(findTestObject(""YourLogo/Page_My account - My Store/btnOrderHstrynDtls""))",Chrome 92.0.4515.131,,,2021-08-05 21:14:14,2021-08-05 21:14:23,8.815s,PASSED
+"click(findTestObject(""YourLogo/Page_Order history - My Store/span_Reorder_footable-toggle""))",Chrome 92.0.4515.131,,,2021-08-05 21:14:23,2021-08-05 21:14:24,0.594s,PASSED
+"click(findTestObject(""YourLogo/Page_Order history - My Store/btnReOrder""))",Chrome 92.0.4515.131,,,2021-08-05 21:14:24,2021-08-05 21:14:39,15.470s,PASSED
+"click(findTestObject(""YourLogo/Page_Order - My Store/btnSummaryCheckout""))",Chrome 92.0.4515.131,,,2021-08-05 21:14:39,2021-08-05 21:14:48,9.258s,PASSED
+"setText(findTestObject(""YourLogo/Page_Order - My Store/txtfreetext""), Comment)",Chrome 92.0.4515.131,,,2021-08-05 21:14:48,2021-08-05 21:14:49,0.954s,PASSED
+"click(findTestObject(""YourLogo/Page_Order - My Store/btnAddressCheckout""))",Chrome 92.0.4515.131,,,2021-08-05 21:14:49,2021-08-05 21:15:29,39.827s,PASSED
+"click(findTestObject(""YourLogo/Page_Order - My Store/chkTnC""))",Chrome 92.0.4515.131,,,2021-08-05 21:15:29,2021-08-05 21:15:30,0.570s,PASSED
+"click(findTestObject(""YourLogo/Page_Order - My Store/btnAddressCheckout""))",Chrome 92.0.4515.131,,,2021-08-05 21:15:30,2021-08-05 21:15:40,9.934s,PASSED
+"click(findTestObject(""YourLogo/Page_Order - My Store/btnPBCheck""))",Chrome 92.0.4515.131,,,2021-08-05 21:15:40,2021-08-05 21:15:40,0.839s,PASSED
+"click(findTestObject(""YourLogo/Page_Order confirmation - My Store/btnShippingCheckout""))",Chrome 92.0.4515.131,,,2021-08-05 21:15:40,2021-08-05 21:16:15,34.751s,FAILED
+,,,,,,,
+Test Cases/ReOrderFromOrderHistory,Chrome 92.0.4515.131,Search an order by Order reference and Reorder,,2021-08-05 21:16:15,2021-08-05 21:18:33,2m - 18.101s,FAILED
+openBrowser(url),Chrome 92.0.4515.131,,,2021-08-05 21:16:15,2021-08-05 21:16:28,13.033s,PASSED
+"setText(findTestObject(""YourLogo/LoginPage/txtUsername""), strUsername)",Chrome 92.0.4515.131,,,2021-08-05 21:16:28,2021-08-05 21:16:29,0.916s,PASSED
+"setText(findTestObject(""YourLogo/LoginPage/txtPasswd""), strPasswrd)",Chrome 92.0.4515.131,,,2021-08-05 21:16:29,2021-08-05 21:16:30,0.868s,PASSED
+"click(findTestObject(""YourLogo/LoginPage/btnSignIn""))",Chrome 92.0.4515.131,,,2021-08-05 21:16:30,2021-08-05 21:16:37,6.715s,PASSED
+"click(findTestObject(""YourLogo/Page_My account - My Store/btnOrderHstrynDtls""))",Chrome 92.0.4515.131,,,2021-08-05 21:16:37,2021-08-05 21:16:56,19.494s,PASSED
+"click(findTestObject(""YourLogo/Page_Order history - My Store/span_Reorder_footable-toggle""))",Chrome 92.0.4515.131,,,2021-08-05 21:16:56,2021-08-05 21:16:57,0.590s,PASSED
+"click(findTestObject(""YourLogo/Page_Order history - My Store/btnReOrder""))",Chrome 92.0.4515.131,,,2021-08-05 21:16:57,2021-08-05 21:17:13,16.029s,PASSED
+"click(findTestObject(""YourLogo/Page_Order - My Store/btnSummaryCheckout""))",Chrome 92.0.4515.131,,,2021-08-05 21:17:13,2021-08-05 21:17:14,0.877s,PASSED
+"setText(findTestObject(""YourLogo/Page_Order - My Store/txtfreetext""), Comment)",Chrome 92.0.4515.131,,,2021-08-05 21:17:14,2021-08-05 21:17:25,11.766s,PASSED
+"click(findTestObject(""YourLogo/Page_Order - My Store/btnAddressCheckout""))",Chrome 92.0.4515.131,,,2021-08-05 21:17:25,2021-08-05 21:17:58,32.138s,PASSED
+"click(findTestObject(""YourLogo/Page_Order - My Store/chkTnC""))",Chrome 92.0.4515.131,,,2021-08-05 21:17:58,2021-08-05 21:18:33,35.647s,FAILED

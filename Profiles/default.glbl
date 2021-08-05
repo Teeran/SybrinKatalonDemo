@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'arvind.moosanah@gmail.com'</initValue>
+      <name>strUsername</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Arvind@2412'</initValue>
+      <name>strPasswrd</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'http://automationpractice.com/index.php?controller=authentication&amp;back=my-account'</initValue>
+      <name>url</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

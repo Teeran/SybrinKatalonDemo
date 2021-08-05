@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/YourLogo/Page_Order - My Store/btnAddressCheckout",
+      "brokenLocator": "//form[@id\u003d\u0027form\u0027]/p/button/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Newsletter\u0027])[1]/preceding::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210805_212002/YourLogoTestdata/20210805_212002/Object Repository/YourLogo/Page_Order - My Store/btnAddressCheckout_neighbor.png"
+    }
+  ]
+}

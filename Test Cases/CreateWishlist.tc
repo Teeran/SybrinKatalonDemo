@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Add a new address</description>
+   <name>CreateWishlist</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>04efcae9-2889-40d0-b9b3-0bae340dedec</testCaseGuid>
+</TestCaseEntity>

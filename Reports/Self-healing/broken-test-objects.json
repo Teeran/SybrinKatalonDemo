@@ -1,0 +1,64 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/YourLogo/Page_Address - Details/drpDlryAddrs",
+      "brokenLocator": "//select[@id\u003d\u0027id_address_delivery\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//select",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/YourLogo/Page_Address - Details/drpDlryAddrs_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/YourLogo/Page_Order - My Store/btnAddressCheckout",
+      "brokenLocator": "//form[@id\u003d\u0027form\u0027]/p/button/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Newsletter\u0027])[1]/preceding::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/YourLogo/Page_Order - My Store/btnAddressCheckout_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/YourLogo/WishLOBJ/Page_Faded Short Sleeve T-shirts - My Store/div_Added to your wishlist",
+      "brokenLocator": "//body[@id\u003d\u0027product\u0027]/div[3]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027support@seleniumframework.com\u0027])[1]/following::div[3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/YourLogo/WishLOBJ/Page_Faded Short Sleeve T-shirts - My Store/div_Added to your wishlist_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/YourLogo/WishLOBJ/Page_Faded Short Sleeve T-shirts - My Store/a_supportseleniumframework.com_fancybox-ite_61b443",
+      "brokenLocator": "//body[@id\u003d\u0027product\u0027]/div[3]/div/div/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[contains(@href, \u0027javascript:;\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/YourLogo/WishLOBJ/Page_Faded Short Sleeve T-shirts - My Store/a_supportseleniumframework.com_fancybox-ite_61b443_href.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/YourLogo/HistoryReorder/Page_Order - My Store/span_Proceed to checkout",
+      "brokenLocator": "//div[@id\u003d\u0027center_column\u0027]/p[2]/a/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027United States\u0027])[2]/following::span[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/YourLogo/HistoryReorder/Page_Order - My Store/span_Proceed to checkout_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/YourLogo/HistoryReorder/Page_Order - My Store/btnAddressCheckout",
+      "brokenLocator": "//form[@id\u003d\u0027form\u0027]/p/button/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Newsletter\u0027])[1]/preceding::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/YourLogo/HistoryReorder/Page_Order - My Store/btnAddressCheckout_neighbor.png"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite,Chrome 92.0.4515.131,,,2021-08-05 20:56:20,2021-08-05 21:00:44,4m - 23.137s,FAILED
+,,,,,,,
+Test Cases/ReOrderFromOrderHistory,Chrome 92.0.4515.131,Search an order by Order reference and Reorder,,2021-08-05 20:56:21,2021-08-05 20:59:49,3m - 28.213s,FAILED
+openBrowser(url),Chrome 92.0.4515.131,,,2021-08-05 20:56:22,2021-08-05 20:56:37,14.973s,PASSED
+"setText(findTestObject(""YourLogo/LoginPage/txtUsername""), strUsername)",Chrome 92.0.4515.131,,,2021-08-05 20:56:37,2021-08-05 20:56:38,1.117s,PASSED
+"setText(findTestObject(""YourLogo/LoginPage/txtPasswd""), strPasswrd)",Chrome 92.0.4515.131,,,2021-08-05 20:56:38,2021-08-05 20:56:39,0.947s,PASSED
+"click(findTestObject(""YourLogo/LoginPage/btnSignIn""))",Chrome 92.0.4515.131,,,2021-08-05 20:56:39,2021-08-05 20:56:52,13.515s,PASSED
+"click(findTestObject(""YourLogo/Page_My account - My Store/btnOrderHstrynDtls""))",Chrome 92.0.4515.131,,,2021-08-05 20:56:52,2021-08-05 20:57:01,8.537s,PASSED
+"click(findTestObject(""YourLogo/Page_Order history - My Store/span_Reorder_footable-toggle""))",Chrome 92.0.4515.131,,,2021-08-05 20:57:01,2021-08-05 20:57:01,0.606s,PASSED
+"click(findTestObject(""YourLogo/Page_Order history - My Store/btnReOrder""))",Chrome 92.0.4515.131,,,2021-08-05 20:57:01,2021-08-05 20:57:16,14.954s,PASSED
+"click(findTestObject(""YourLogo/Page_Order - My Store/btnSummaryCheckout""))",Chrome 92.0.4515.131,,,2021-08-05 20:57:16,2021-08-05 20:57:25,8.240s,PASSED
+"setText(findTestObject(""YourLogo/Page_Order - My Store/txtfreetext""), Comment)",Chrome 92.0.4515.131,,,2021-08-05 20:57:25,2021-08-05 20:57:26,0.874s,PASSED
+"click(findTestObject(""YourLogo/Page_Order - My Store/btnAddressCheckout""))",Chrome 92.0.4515.131,,,2021-08-05 20:57:26,2021-08-05 20:57:59,33.398s,PASSED
+"click(findTestObject(""YourLogo/Page_Order - My Store/chkTnC""))",Chrome 92.0.4515.131,,,2021-08-05 20:57:59,2021-08-05 20:59:49,1m - 50.152s,FAILED
+,,,,,,,
+Test Cases/CreateWishlist,Chrome 92.0.4515.131,Add a new address,,2021-08-05 20:59:49,2021-08-05 21:00:44,54.431s,PASSED
+openBrowser(url),Chrome 92.0.4515.131,,,2021-08-05 20:59:50,2021-08-05 21:00:05,14.937s,PASSED
+"setText(findTestObject(""YourLogo/LoginPage/txtUsername""), strUsername)",Chrome 92.0.4515.131,,,2021-08-05 21:00:05,2021-08-05 21:00:06,0.916s,PASSED
+"setText(findTestObject(""YourLogo/LoginPage/txtPasswd""), strPasswrd)",Chrome 92.0.4515.131,,,2021-08-05 21:00:06,2021-08-05 21:00:07,0.908s,PASSED
+takeScreenshot(),Chrome 92.0.4515.131,,,2021-08-05 21:00:07,2021-08-05 21:00:08,1.654s,PASSED
+"click(findTestObject(""YourLogo/LoginPage/btnSignIn""))",Chrome 92.0.4515.131,,,2021-08-05 21:00:08,2021-08-05 21:00:22,13.524s,PASSED
+"click(findTestObject(""YourLogo/Page_My account - My Store/btnMyWishlist""))",Chrome 92.0.4515.131,,,2021-08-05 21:00:22,2021-08-05 21:00:32,10.115s,PASSED
+"setText(findTestObject(""YourLogo/MyWishListPage/txtWLName""), ""List_Winter"")",Chrome 92.0.4515.131,,,2021-08-05 21:00:32,2021-08-05 21:00:33,1.022s,PASSED
+takeScreenshot(),Chrome 92.0.4515.131,,,2021-08-05 21:00:33,2021-08-05 21:00:33,0.470s,PASSED
+"click(findTestObject(""YourLogo/MyWishListPage/btnSave""))",Chrome 92.0.4515.131,,,2021-08-05 21:00:33,2021-08-05 21:00:43,9.188s,PASSED
+closeBrowser(),Chrome 92.0.4515.131,,,2021-08-05 21:00:43,2021-08-05 21:00:44,1.071s,PASSED
